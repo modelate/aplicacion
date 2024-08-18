@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu Faja</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <header>
+        <img src="Modelate logo app.jpg" alt="Logo de mi página web" id="logo">
+    </header>
+    <body>
+    <div class="container">
+        <h1>Descubre tu Faja Ideal</h1>
+        <div id="questionContainer">
+            <div class="question">
+                <label for="objetivo">¿Cuál es tu objetivo principal? <span class="tooltip">ⓘ<span class="tooltiptext">Selecciona el propósito principal por el que buscas una faja</span></span></label>
+                <select id="objetivo">
+                    <option value="">Selecciona una opción</option>
+                    <option value="reducir">Reducir medidas</option>
+                    <option value="moldear">Moldear figura</option>
+                    <option value="postparto">Postparto - Postoperatorio</option>
+                    <option value="postura">Mejorar postura</option>
+                    <option value="control">Control de abdomen</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="area">¿Qué área quieres enfocar principalmente? <span class="tooltip">ⓘ<span class="tooltiptext">Indica la zona de tu cuerpo donde quieres ver más resultados</span></span></label>
+                <select id="area">
+                    <option value="">Selecciona una opción</option>
+                    <option value="abdomen">Abdomen</option>
+                    <option value="cintura">Cintura</option>
+                    <option value="gluteos">Gluteos</option>
+                    <option value="espalda">Espalda</option>
+                    <option value="cuerpo_completo">Cuerpo completo</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="compresion">¿Qué nivel de compresión prefieres? <span class="tooltip">ⓘ<span class="tooltiptext">Mayor compresión puede ofrecer resultados más rápidos, pero puede ser menos cómoda</span></span></label>
+                <select id="compresion">
+                    <option value="">Selecciona una opción</option>
+                    <option value="suave">Suave</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                    <option value="extrema">Extrema</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="material">¿Tienes alguna preferencia de material o tecnología? <span class="tooltip">ⓘ<span class="tooltiptext">Diferentes materiales ofrecen distintos beneficios y sensaciones</span></span></label>
+                <select id="material">
+                    <option value="">Selecciona una opción</option>
+                    <option value="powernet">Powernet</option>
+                    <option value="sin_costuras">Sin costuras</option>
+                    <option value="con_latex">Con látex</option>
+                    <option value="uso_diario">Uso diario</option>
+                    <option value="sin_preferencia">No tengo preferencia</option>
+                </select>
+            </div>
+        </div>
+        <button onclick="recomendarFaja()">Encontrar mi Faja Ideal</button>
+        <div class="loading">Buscando la faja perfecta para ti</div>
+        <div id="result"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

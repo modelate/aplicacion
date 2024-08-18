@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #044e52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('your-background-image.jpg'); /* Opcional: agrega una imagen de fondo */
+    background-size:contain;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    background: color #a648fe; /* Fondo blanco con transparencia */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #07afb8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .question-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300; /* O un peso más ligero según tu preferencia */
+    text-align:left;
+    color:rgba(27, 25, 25, 0.925); /* Un tono de morado suave */
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fe738d;
+    border-radius: 5px;
+  }
+  
+  .label {
+    color: #07afb8;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #a648fe;
+    border-radius: 4px;
+    font-size: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  button {
+    background-color: #07afb8;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fe738d;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+  
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #Fe738d;
+  color: #ffffffbe;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px;
+  position: absolute;
+  z-index: 1;
+  bottom: 145%;
+  left: 50%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: #Fe738d;
+  font-style:'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 2rem;
+  text-align: left;
+  background-color: #FFF9F9;
+  padding: 30px;
+  border-radius: 8px;
+  display: none;
+  border: 1px solid #FFE5E5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.faja-image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 6px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(245, 165, 165, 0.1);
+}
+
+#logo {
+  width: 10%; /* El logo ocupará el 10% del ancho del contenedor padre */
+  height: auto; /* Mantiene la proporción de la imagen */
+  position: absolute;
+  top: 10px;
+  left: 280px;
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra */
+}
