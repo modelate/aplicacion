@@ -571,6 +571,28 @@ let fajas = [
         descripcion: "Descubre la fusión perfecta de comodidad, estilo y funcionalidad con nuestro Body Faja. Diseñado para realzar tu figura y resaltar tu belleza natural, esta prenda redefine el concepto de elegancia.",
         url: "https://www.modelate.cl/body-faja-con-cierre"
     },
+     {
+        nombre: "BODY REDUCTOR CON BROCHES",
+        area: ["cintura", "abdomen", "gluteos", "espalda"],
+        objetivo: ["moldear", "reducir", "control", "postura", "postparto"],
+        material: ["uso_diario", "powernet"],
+        compresion: "alta",
+        precio: 33990,
+        imagen: "https://cdnx.jumpseller.com/modelate/image/52486410/resize/540/540?1725336261",
+        descripcion: "Realza tu figura con este elegante body reductor de powernet, diseñado para ofrecer una sujeción alta que moldea y define tu pecho, glúteos y cintura. Su diseño liso en color negro está realzado por un delicado encaje en contraste, añadiendo un toque de sofisticación y feminidad.",
+        url: "https://www.modelate.cl/body-reductor-con-broches"
+    },
+      {
+        nombre: "FAJA REDUCTORA Y LEVANTA GLÚTEOS",
+        area: ["cintura", "abdomen", "gluteos", "espalda"],
+        objetivo: ["moldear", "reducir", "control", "postura", "postparto"],
+        material: ["uso_diario", "powernet"],
+        compresion: "alta",
+        precio: 32990,
+        imagen: "https://cdnx.jumpseller.com/modelate/image/52474945/resize/540/540?1725304537",
+        descripcion: "Descubre la comodidad y el modelado excepcional con nuestras fajas reductoras y moldeadoras, confeccionadas en telas elásticas de alta compresión. Ligera, flexible y agradable al tacto, nuestra línea es adecuada para figuras delgadas, normales y de talla grande, proporcionando una compresión súper alta.",
+        url: "https://www.modelate.cl/faja-reductora-y-levanta-gluteoss"
+    },
 ];
 
 function recomendarFaja() {
